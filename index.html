@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=>, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
 </head>
 <body>
+    <div class="weather-app">
     <header>
         <form>
             <input type="search" placeholder="Enter a city.." required/>
@@ -13,13 +15,15 @@
         </form>
     </header>
     <main>
+        <div>
         <h1>Paris</h1>
         <p>
             Tuesday 14:49, scattered clouds
             <br />
             Humidity: 66%, Wind: 3.13km/h
         </p>
-        🌤 12°C
+    </div>
+    <div>🌤 12°C</div>
     </main>
     
     <footer>
@@ -28,5 +32,6 @@
         <a href="https://github.com/akhona-mazingisa?tab=repositories" target="_blank"> on GitHub</a> and website hosted on
         <a href="https://my-shecodes-weather-homework1.netlify.app/" target="_blank">Netlify</a>
     </footer>
+</div>
 </body>
 </html>
