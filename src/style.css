@@ -63,11 +63,7 @@ main {
     font-weight: 500;
 }
 
-.weather-app-details strong {
-    color: #f652f6;
-}
-
-humidity {
+.weather-app-deatils strong {
     color: #f652f6;
 }
 
