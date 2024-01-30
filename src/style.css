@@ -30,7 +30,6 @@ header {
     padding: 15px 20px;
 }
 
-
 .search-form-button {
     background: #885df1;
     padding: 15px 20px;
@@ -78,14 +77,19 @@ main {
 }
 
 .weather-app-icon {
+    font-size: 100;
     width: 88px;
-    height: 88px;
-    margin-top: 22px;
+    height: 88px
 }
 
 .weather-app-unit {
     margin-top: 6px;
     font-size: 28px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+        overflow: clip;
 }
 
 footer {
