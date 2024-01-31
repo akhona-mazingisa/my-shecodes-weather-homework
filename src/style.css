@@ -62,8 +62,8 @@ main {
     font-weight: 500;
 }
 
-.weather-app-deatils strong {
-    color: #f652f6;
+.weather-app-details strong {
+    color: #f65282;
 }
 
 .weather-app-temperature-container {
