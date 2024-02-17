@@ -76,7 +76,7 @@ main {
     font-weight: bold;
 }
 
-.weather-app-icon {
+.icon {
     font-size: 100;
     width: 88px;
     height: 88px;
@@ -86,11 +86,6 @@ main {
 .weather-app-unit {
     margin-top: 6px;
     font-size: 28px;
-}
-
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
 }
 
 footer {
